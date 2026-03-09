@@ -1,3 +1,5 @@
+java -cp target/MavenDemo-1.0-SNAPSHOT.jar com.college.App
+
 package org.mywebapp.com;
 
 import java.util.*;

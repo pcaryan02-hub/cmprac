@@ -1,0 +1,28 @@
+package org.mywebapp.com;
+
+import java.util.*;
+
+public class MyClass {
+ public static void main(String[] args) {
+  List<String> list = new ArrayList<>();
+  list.add("Hello");
+  list.add("World");
+  System.out.println(list);
+ }
+}
+
+<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+            <source>8</source>
+            <target>8</target>
+        </configuration>
+    </plugin>
+
+    <plugin>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-maven-plugin</artifactId>
+        <version>9.4.53.v20231009</version>
+    </plugin>
